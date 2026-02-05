@@ -1,0 +1,42 @@
+h1{
+    color:blue;
+}
+/* 全体の設定 */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif; /* 学術系っぽいスッキリしたフォント */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* 背景を薄いグレーに */
+    color:aqua;
+}
+
+/* 上のタイトル部分 */
+header {
+    background-color: #333; /* 黒っぽいヘッダー */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ★ここが重要：2列にする魔法 */
+.container {
+    display: flex;       /* 横並びにする命令 */
+    max-width: 1000px;   /* 横幅が広がりすぎないように制限 */
+    margin: 20px auto;   /* 画面の中央に配置 */
+    padding: 0 20px;
+}
+
+/* メイン記事エリア */
+.main {
+    width: 70%;          /* 幅を70%に */
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;  /* 右側に隙間を空ける */
+}
+
+/* サイドバーエリア */
+.sidebar {
+    width: 30%;          /* 幅を30%に */
+    background-color: white;
+    padding: 20px;
+}
