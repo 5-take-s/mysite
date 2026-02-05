@@ -17,7 +17,7 @@ header {
     /* 画像の上に、半透明の黒い（rgba(0,0,0, 0.4) = 黒の透明度40%）フィルターを重ねる */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("images/header-bg.jpg");
+        url("images/header-bg.png");
 
     /* 画像の表示設定 */
     background-size: cover;      /* 枠に合わせて隙間なく埋める */
