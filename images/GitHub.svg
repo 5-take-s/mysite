@@ -1,0 +1,65 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-4 0 64 48"
+    fill="none"
+>
+    <!-- ===== 左 < ===== -->
+
+    <!-- 縁取り -->
+    <path
+        d="M11 12L1 24L11 36"
+        stroke="#166534"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+    />
+
+    <!-- 本体 -->
+    <path
+        d="M11 12L1 24L11 36"
+        stroke="#22C55E"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+    />
+
+
+    <!-- ===== / ===== -->
+
+    <!-- 縁取り -->
+    <path
+        d="M31 8L25 40"
+        stroke="#166534"
+        stroke-width="8"
+        stroke-linecap="round"
+    />
+
+    <!-- 本体 -->
+    <path
+        d="M31 8L25 40"
+        stroke="#22C55E"
+        stroke-width="4"
+        stroke-linecap="round"
+    />
+
+
+    <!-- ===== 右 > ===== -->
+
+    <!-- 縁取り -->
+    <path
+        d="M45 12L55 24L45 36"
+        stroke="#166534"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+    />
+
+    <!-- 本体 -->
+    <path
+        d="M45 12L55 24L45 36"
+        stroke="#22C55E"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+    />
+</svg>

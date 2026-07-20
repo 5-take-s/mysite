@@ -24,7 +24,7 @@ header {
     /* text-shadow: 2px 2px 4px black; */ /* フィルターがあるので影はなくても大丈夫かも。お好みでONに */
 
     /* 高さの設定（お好みで調整してください） */
-    height: 350px;               /* 少し高めにとって写真を広く見せる */
+    height: 150px;               /* 少し高めにとって写真を広く見せる */
     
     /* 文字をど真ん中に配置する設定（Flexbox） */
     display: flex;
@@ -36,8 +36,9 @@ header {
 /* ヘッダー内のタイトルの微調整 */
 header h1 {
     font-size: 3em; /* タイトル文字を大きく目立たせる */
+    font-weight: 400;
     margin: 0;      /* 上下の余分な隙間をなくす */
-    font-family: serif; /* 明朝体やセリフ体にすると、より論文・アカデミック感が出ます */
+    font-family: sans-serif; /* 明朝体やセリフ体にすると、より論文・アカデミック感が出ます */
 }
 
 /* ★ここが重要：2列にする魔法 */
@@ -61,4 +62,15 @@ header h1 {
     width: 30%;          /* 幅を30%に */
     background-color: white;
     padding: 20px;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;      /* アイコンと文字の間隔 */
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
 }
