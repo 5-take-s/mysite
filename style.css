@@ -41,27 +41,46 @@ header h1 {
     font-family: sans-serif; /* 明朝体やセリフ体にすると、より論文・アカデミック感が出ます */
 }
 
-/* ★ここが重要：2列にする魔法 */
+/* 左側のカード一覧と右側のサイドバー */
 .container {
-    display: flex;       /* 横並びにする命令 */
-    max-width: 1000px;   /* 横幅が広がりすぎないように制限 */
-    margin: 20px auto;   /* 画面の中央に配置 */
+    display: grid;
+
+    /* 左側70%、右側30%に近い比率 */
+    grid-template-columns: minmax(0, 7fr) minmax(220px, 3fr);
+
+    gap: 20px;
+
+    max-width: 1000px;
+    margin: 20px auto;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
-/* メイン記事エリア */
-.main {
-    width: 70%;          /* 幅を70%に */
+/* 左側のカード一覧 */
+.contents {
+    display: grid;
+
+    /* 1行に2枚 */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+/* 各カード共通 */
+.card {
     background-color: white;
     padding: 20px;
-    margin-right: 20px;  /* 右側に隙間を空ける */
+    box-sizing: border-box;
 }
 
-/* サイドバーエリア */
+/* 右側のサイドバー */
 .sidebar {
-    width: 30%;          /* 幅を30%に */
     background-color: white;
     padding: 20px;
+    box-sizing: border-box;
+
+    /* 内容が少なくても縦に引き伸ばさない */
+    align-self: start;
 }
 
 .github-link {
@@ -71,6 +90,28 @@ header h1 {
 }
 
 .github-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.lemino-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;      /* アイコンと文字の間隔 */
+}
+
+.lemino-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.netflix-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;      /* アイコンと文字の間隔 */
+}
+
+.netflix-icon {
     width: 30px;
     height: 30px;
 }

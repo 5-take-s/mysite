@@ -1,0 +1,73 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 72 64"
+    fill="none"
+>
+    <!-- =========================
+         N：濃い縁取り
+    ========================== -->
+    <path
+        d="
+            M14 54
+            V10
+            H23
+            L43 54
+            H52
+            V10
+        "
+        stroke="#8B001F"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <!-- =========================
+         N：明るい本体
+    ========================== -->
+    <path
+        d="
+            M14 54
+            V10
+            H23
+            L43 54
+            H52
+            V10
+        "
+        stroke="#FF1635"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <!-- =========================
+         再生マーク：濃い縁取り
+         Nの右側に重ねる
+    ========================== -->
+    <path
+        d="
+            M43 23
+            L66 32
+            L43 41
+            Z
+        "
+	fill="white"
+        stroke="#8B001F"
+        stroke-width="10"
+        stroke-linejoin="round"
+    />
+
+    <!-- =========================
+         再生マーク：明るい本体
+    ========================== -->
+    <path
+        d="
+            M43 23
+            L66 32
+            L43 41
+            Z
+        "
+        stroke="#FF1635"
+        stroke-width="5"
+        stroke-linejoin="round"
+    />
+</svg>
