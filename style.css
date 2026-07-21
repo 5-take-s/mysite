@@ -115,3 +115,25 @@ header h1 {
     width: 30px;
     height: 30px;
 }
+
+.AmazonPrime-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;      /* アイコンと文字の間隔 */
+}
+
+.AmazonPrime-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.Unext-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;      /* アイコンと文字の間隔 */
+}
+
+.Unext-icon {
+    width: 30px;
+    height: 30px;
+}

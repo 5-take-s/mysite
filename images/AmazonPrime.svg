@@ -1,0 +1,68 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    fill="none"
+>
+    <!-- =========================
+         再生マーク
+    ========================== -->
+    <path
+        d="
+            M25 8
+            Q23 7 21.5 8.2
+            Q20 9.3 20 11.5
+            V35.5
+            Q20 37.7 21.5 38.8
+            Q23 40 25 39
+            L47 25.8
+            Q49 24.7 49 23.5
+            Q49 22.2 47 21
+            Z
+
+            M27 16
+            L40 23.5
+            L27 31
+            Z
+        "
+        fill="#38BDF8"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        stroke="#173B6C"
+        stroke-width="3"
+        stroke-linejoin="round"
+    />
+
+    <!-- =========================
+         スマイル矢印：縁取り
+    ========================== -->
+    <path
+        d="
+            M11 43
+            C22 52 39 54 52 46
+            L49 45
+            M52 46
+            L50 51
+        "
+        stroke="#173B6C"
+        stroke-width="7"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <!-- =========================
+         スマイル矢印：本体
+    ========================== -->
+    <path
+        d="
+            M11 43
+            C22 52 39 54 52 46
+            L49 45
+            M52 46
+            L50 51
+        "
+        stroke="#38BDF8"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+</svg>
