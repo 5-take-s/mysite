@@ -31,6 +31,9 @@ header {
     justify-content: center;     /* 左右中央 */
     align-items: center;         /* 上下中央 */
     flex-direction: column;      /* もしh1の下にpタグなどでサブタイトルを入れるなら縦並びにする */
+    a {
+        text-decoration: none;
+    }
 }
 
 /* ヘッダー内のタイトルの微調整 */
